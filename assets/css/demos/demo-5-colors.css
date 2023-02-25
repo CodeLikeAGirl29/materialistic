@@ -107,7 +107,7 @@
 .single-post-text ul > li:before,
 .comment-text ul > li:before,
 .blog-content ul > li:before {
-	background: #f54134;
+	background: rgb(237, 41, 57);
 }
 
 .lnk:hover,
@@ -195,14 +195,14 @@ strong.woocommerce-review__author,
 .content-sidebar .profile .social a:hover .fab,
 .content-sidebar .profile .social a:hover .fas,
 .content-sidebar .profile .social a:hover .fa {
-	color: #f54134;
+	color: rgb(237, 41, 57);
 }
 
 .content .title .first-word,
 .content .title:first-letter,
 .content-sidebar h2.widget-title .first-word,
 .content-sidebar h2.widget-title:first-letter {
-	color: #f54134 !important;
+	color: rgb(237, 41, 57) !important;
 }
 
 .card-started .profile .image:before,
@@ -336,27 +336,27 @@ textarea:focus,
 .skills-list.circles .progress.p98 .fill,
 .skills-list.circles .progress.p99 .fill,
 .skills-list.circles .progress.p100 .fill {
-	border-color: #f54134;
+	border-color: rgb(237, 41, 57);
 }
 
 .preloader .spinner.recursive-circle,
 .preloader .spinner.recursive-circle:after {
-	border-color: #f54134;
+	border-color: rgb(237, 41, 57);
 	border-top-color: transparent;
 }
 
 blockquote {
-	border-left-color: #f54134;
+	border-left-color: rgb(237, 41, 57);
 }
 
 .preloader .spinner.simple-circle {
-	border-right-color: #f54134;
+	border-right-color: rgb(237, 41, 57);
 }
 
 .preloader .spinner.quantum-spinner,
 .preloader .spinner.quantum-spinner:before,
 .preloader .spinner.quantum-spinner:after {
-	border-top-color: #f54134;
+	border-top-color: rgb(237, 41, 57);
 }
 
 /*
@@ -376,5 +376,5 @@ body {
 }
 
 .service-items .service-item .icon {
-	background: #f54134 !important;
+	background: rgb(237, 41, 57) !important;
 }

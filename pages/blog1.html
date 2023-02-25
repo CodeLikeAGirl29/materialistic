@@ -31,7 +31,8 @@
 	<link rel="stylesheet" href="../assets/css/ionicons.css" />
 	<link rel="stylesheet" href="../assets/css/magnific-popup.css" />
 	<link rel="stylesheet" href="../assets/css/animate.css" />
-	<link rel="stylesheet" href="../assets/css/owl.carousel.css" />
+	<link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" />
 
 	<!--
 		Background Gradient
@@ -51,12 +52,12 @@
 	<!--
 		Template Colors
 	-->
-	<link rel="stylesheet" href="assets/css/demos/demo-1-colors.css" />
+	<!-- <link rel="stylesheet" href="assets/css/demos/demo-5-colors.css" /> -->
 	<!--<link rel="stylesheet" href="css/template-colors/blue.css" />-->
 	<!--<link rel="stylesheet" href="css/template-colors/orange.css" />-->
 	<!--<link rel="stylesheet" href="css/template-colors/pink.css" />-->
 	<!--<link rel="stylesheet" href="css/template-colors/purple.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/red.css" />-->
+	<link rel="stylesheet" href="css/template-colors/red.css" />
 
 	<!--
 		Template Dark
@@ -181,16 +182,16 @@
 				<div class="profile no-photo">
 
 					<!-- profile image -->
-					<div class="slide" style="background-image: url(../assets/images/profile-6.png);"></div>
+					<div class="slide" style="background-image: url(../assets/images/avatar-2.png);"></div>
 
 					<!-- profile titles -->
 					<div class="title">Lindsey Howard</div>
 					<!--<div class="subtitle">Web Designer</div>-->
-					<div class="subtitle subtitle-typed">
-						<div class="typing-title">
+					<div class="subtitle">
+						<div class="highlight">
 							<p>Frontend Developer</p>
-							<p>Designer</p>
-							<p>Blogger</p>
+							<!-- <p>Designer</p>
+							<p>Blogger</p> -->
 						</div>
 					</div>
 
@@ -247,13 +248,13 @@
 									<h1 class="h-title">Frontend Developers Handbook</h1>
 									<div class="blog-detail">
 										<span class="date">Sept 1, 2022</span>
-										<span class="cat-links"><a href="#">Guides</a>, <a href="#">Music</a></span>
-										<span class="byline"> by <span class="author"><a href="#">admin</a></span></span>
+										<span class="cat-links"><a href="#">Guides</a>, <a href="#">Frontend</a></span>
+										<!-- <span class="byline"> by <span class="author"><a href="#">admin</a></span></span> -->
 									</div>
 
 									<!-- blog image -->
 									<div class="blog-image">
-										<img src="assetsimages/blog/1.png" alt="" />
+										<img src="assets/images/blog/1.png" alt="" />
 									</div>
 
 									<!-- blog content -->
@@ -304,7 +305,7 @@
                       <div class="team-item-inner">
                         <div class="team-box">
                           <div class="image-projects">
-                            <img alt="Img" src="img/news/news-gallery/gallery-1/1.png" loading="lazy" />
+                            <img alt="Img" src="../assets/images/blog/news-gallery/gallery-1/1.png" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -347,7 +348,7 @@
                       <div class="team-item-inner">
                         <div class="team-box">
                           <div class="image-projects">
-                            <img alt="Img" src="img/news/news-gallery/gallery-1/2.png" loading="lazy" />
+                            <img alt="Img" src="../assets/images/blog/news-gallery/gallery-1/2.png" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -388,7 +389,7 @@
                       <div class="team-item-inner">
                         <div class="team-box">
                           <div class="image-projects">
-                            <img alt="Img" src="img/news/news-gallery/gallery-1/3.png" loading="lazy" />
+                            <img alt="Img" src="../assets/blog/news-gallery/gallery-1/3.png" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -429,7 +430,7 @@
                       <div class="team-item-inner">
                         <div class="team-box">
                           <div class="image-projects">
-                            <img alt="Img" src="img/news/news-gallery/gallery-1/4.png" loading="lazy" />
+                            <img alt="Img" src="../assets/blog/news-gallery/gallery-1/4.png" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -507,7 +508,7 @@
 											<a class="share-btn share-btn-reddit" title="Share on Reddit"><i class="ion ion-social-reddit"></i></a>
 											<a class="share-btn share-btn-pinterest" title="Share on Pinterest"><i class="ion ion-social-pinterest"></i></a> -->
 										</div>
-										<span class="tags-links">Tags: <a href="#">code</a><a href="#">html</a><a href="#">plugin</a><a href="#">wordpress</a></span>
+										<span class="tags-links">Tags: <a href="#">code</a><a href="#">html</a><a href="#">guide</a><a href="#">frontend</a></span>
 									</div>
 
 								</div>
@@ -516,8 +517,8 @@
 
 						<nav class="navigation post-navigation">
 							<div class="nav-links">
-								<div class="nav-previous"><a href="#"><span class="post-nav-next post-nav-text">Prev</span></a></div>
-								<div class="nav-next"><a href="#"><span class="post-nav-prev post-nav-text">Next</span></a></div>
+								<div class="nav-previous"><a href="../index.html"><span class="post-nav-next post-nav-text">Prev</span></a></div>
+								<div class="nav-next"><a href="pages/blog2.html"><span class="post-nav-prev post-nav-text">Next</span></a></div>
 							</div>
 						</nav>
 
@@ -649,14 +650,17 @@
 
 						<!-- content -->
 						<div class="row">
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-								<div class="map" id="map"></div>
+              <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="map" id="map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206989.15012519967!2d-78.7851394361!3d35.84396498098574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5a2f9f51e0f7%3A0x6790b6528a11f0ad!2sRaleigh%2C%20NC!5e0!3m2!1sen!2sus!4v1655735327235!5m2!1sen!2sus" height="350" style="border: 0;" allowfullscreen></iframe>
+							</div>
+								</div>
 								<div class="info-list">
 									<ul>
-										<li><strong>Address . . . . .</strong> Raleigh, NC</li>
-										<li><strong>Email . . . . .</strong> lindseykdev@gmail.com</li>
-										<li><strong>Phone . . . . .</strong> 919.492.7125</li>
-										<li><strong>Freelance . . . . .</strong> Actively Seeking</li>
+										<li><strong>Address . . . .</strong> Raleigh, NC</li>
+										<li><strong>Email . . . .</strong> lindseykdev@gmail.com</li>
+										<li><strong>Phone . . . .</strong> 919.492.7125</li>
+										<li><strong>Freelance . . . .</strong> Actively Seeking</li>
 									</ul>
 								</div>
 							</div>
