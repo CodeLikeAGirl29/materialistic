@@ -1,361 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-	<!--
+  <head>
+    <!--
 		Basic
 	-->
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>vCard / Resume / CV</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="description" content="vCard & Resume" />
-	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
-	<meta name="author" content="lindseykdev" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>vCard / Resume / CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="vCard & Resume" />
+    <meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
+    <meta name="author" content="lindseykdev" />
 
-	<!--
+    <!--
 		Load Fonts
 	-->
-	<link
-		href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=PT+Sans&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=PT+Sans&display=swap" rel="stylesheet" />
 
-	<!-- =========================================================
+    <!-- =========================================================
 		Load CSS ==================================================
     ============================================================
 	-->
-	<link rel="stylesheet" href="../assets/css/basic.css" />
-	<link rel="stylesheet" href="../assets/css/layout.css" />
-	<link rel="stylesheet" href="../assets/css/blogs.css" />
-	<link rel="stylesheet" href="../assets/css/ionicons.css" />
-	<link rel="stylesheet" href="../assets/css/magnific-popup.css" />
-	<link rel="stylesheet" href="../assets/css/animate.css" />
-	<link rel="stylesheet" href="../assets/css/owl.carousel.css" />
+    <link rel="stylesheet" href="../assets/css/basic.css" />
+    <link rel="stylesheet" href="../assets/css/layout.css" />
+    <link rel="stylesheet" href="../assets/css/blogs.css" />
+    <link rel="stylesheet" href="../assets/css/ionicons.css" />
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="../assets/css/animate.css" />
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" />
 
-	<!--
+    <!--
 		Background Gradient
 	-->
-	<link rel="stylesheet" href="../assets/css/gradient.css" />
+    <link rel="stylesheet" href="../assets/css/gradient.css" />
 
-	<!--
+    <!--
 		Template New-Skin
 	-->
-	<link rel="stylesheet" href="../assets/css/new-skin/new-skin.css" />
+    <link rel="stylesheet" href="../assets/css/new-skin/new-skin.css" />
 
-	<!--
+    <!--
 		Template RTL
 	-->
-	<!--<link rel="stylesheet" href="css/rtl-new.css" />-->
+    <!--<link rel="stylesheet" href="css/rtl-new.css" />-->
 
-	<!--
+    <!--
 		Template Colors
 	-->
-	<link rel="stylesheet" href="assets/css/demos/demo-1-colors.css" />
-	<!--<link rel="stylesheet" href="css/template-colors/blue.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/orange.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/pink.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/purple.css" />-->
-	<!--<link rel="stylesheet" href="css/template-colors/red.css" />-->
+    <!-- <link rel="stylesheet" href="assets/css/demos/demo-5-colors.css" /> -->
+    <!--<link rel="stylesheet" href="css/template-colors/blue.css" />-->
+    <!--<link rel="stylesheet" href="css/template-colors/orange.css" />-->
+    <!--<link rel="stylesheet" href="css/template-colors/pink.css" />-->
+    <!--<link rel="stylesheet" href="css/template-colors/purple.css" />-->
+    <link rel="stylesheet" href="../assets/css/template-colors/red.css" />
 
-	<!--
+    <!--
 		Template Dark
 	-->
-	<!--<link rel="stylesheet" href="css/template-dark/dark.css" />-->
+    <!--<link rel="stylesheet" href="css/template-dark/dark.css" />-->
 
+    <!--[if lt IE 9]>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-	<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-	<!--
+    <!--
 		Favicons
 	-->
-	<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico" />
 
-  	<!--
+    <!--
 		Font Awesome
 	-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" />
-	<script src="https://kit.fontawesome.com/29b275fb0c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" />
+    <script src="https://kit.fontawesome.com/29b275fb0c.js" crossorigin="anonymous"></script>
 
-  <!--
+    <!--
     ShareThis
   -->
-  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=63f6363fb0cf8200125759ce&product=sop' async='async'></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=63f6363fb0cf8200125759ce&product=sop" async="async"></script>
+  </head>
 
+  <body>
+    <div class="page new-skin">
+      <!-- preloader -->
+      <div class="preloader">
+        <div class="centrize full-width">
+          <div class="vertical-center">
+            <div class="spinner">
+              <div class="double-bounce1"></div>
+              <div class="double-bounce2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</head>
+      <!-- background -->
+      <div class="background gradient">
+        <ul class="bg-bubbles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
 
-<body>
-	<div class="page new-skin">
-
-		<!-- preloader -->
-		<div class="preloader">
-			<div class="centrize full-width">
-				<div class="vertical-center">
-					<div class="spinner">
-						<div class="double-bounce1"></div>
-						<div class="double-bounce2"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- background -->
-		<div class="background gradient">
-			<ul class="bg-bubbles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-		</div>
-
-		<!--
+      <!--
 			Container
 		-->
-		<div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
-
-			<!--
+      <div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+        <!--
 				Header
 			-->
-			<header class="header">
+        <header class="header">
+          <!-- menu btn -->
+          <a href="#" class="menu-btn"><span></span></a>
 
-				<!-- menu btn -->
-				<a href="#" class="menu-btn"><span></span></a>
+          <!-- menu -->
+          <div class="top-menu">
+            <ul>
+              <li class="active">
+                <a href="#about-card">
+                  <span class="icon ion-person"></span>
+                  <span class="link">About</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume-card">
+                  <span class="icon ion-android-list"></span>
+                  <span class="link">Resume</span>
+                </a>
+              </li>
+              <li>
+                <a href="#works-card">
+                  <span class="icon ion-android-create"></span>
+                  <span class="link">Projects</span>
+                </a>
+              </li>
+              <li>
+                <a href="#blog-card">
+                  <span class="icon ion-chatbox-working"></span>
+                  <span class="link">Blog</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contacts-card">
+                  <span class="icon ion-at"></span>
+                  <span class="link">Contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </header>
 
-				<!-- menu -->
-				<div class="top-menu">
-					<ul>
-						<li class="active">
-							<a href="#about-card">
-								<span class="icon ion-person"></span>
-								<span class="link">About</span>
-							</a>
-						</li>
-						<li>
-							<a href="#resume-card">
-								<span class="icon ion-android-list"></span>
-								<span class="link">Resume</span>
-							</a>
-						</li>
-						<li>
-							<a href="#works-card">
-								<span class="icon ion-android-create"></span>
-								<span class="link">Projects</span>
-							</a>
-						</li>
-						<li>
-							<a href="#blog-card">
-								<span class="icon ion-chatbox-working"></span>
-								<span class="link">Blog</span>
-							</a>
-						</li>
-						<li>
-							<a href="#contacts-card">
-								<span class="icon ion-at"></span>
-								<span class="link">Contact</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-
-			</header>
-
-			<!--
+        <!--
 				Card - Started
 			-->
-			<div class="card-started" id="home-card">
-
-				<!--
+        <div class="card-started" id="home-card">
+          <!--
 					Profile
 				-->
-				<div class="profile no-photo">
+          <div class="profile no-photo">
+            <!-- profile image -->
+            <div class="slide" style="background-image: url(assets/images/profile-6.png);"></div>
 
-					<!-- profile image -->
-					<div class="slide" style="background-image: url(assets/images/profile-6.png);"></div>
-
-					<!-- profile titles -->
-					<div class="title">Lindsey Howard</div>
-					<!--<div class="subtitle">Web Designer</div>-->
-					<div class="subtitle">
-						<div class="highlight">
-							<p>Frontend Developer</p>
-							<!-- <p>Designer</p>
+            <!-- profile titles -->
+            <div class="title">Lindsey Howard</div>
+            <!--<div class="subtitle">Web Designer</div>-->
+            <div class="subtitle">
+              <div class="highlight">
+                <p>Frontend Developer</p>
+                <!-- <p>Designer</p>
 							<p>Blogger</p> -->
-						</div>
-					</div>
+              </div>
+            </div>
 
-					<!-- profile socials -->
-					<div class="social">
-						<a target="_blank" href="https://linkedin.com/in/lindsey-howard"><span class="fa
-									fa-linkedin"></span></a>
-						<a target="_blank" href="https://twitter.com/dev_lindseyk"><span class="fa
-									fa-twitter"></span></a>
-						<a target="_blank" href="https://github.com/codelikeagirl29"><span class="fa fa-github"></span></a>
-						<a target="_blank" href="https://dev.to/codelikeagirl29"><span class="fa-brands
-									fa-dev"></span></a>
-						<a target="_blank" href="https://stackoverflow.com/users/14072521/lindsey"><span class="fa
-									fa-stack-overflow"></span></a>
-									<a target="_blank" href="https://dribbble.com/codelikeagirl29"><span class="fa-brands fa-dribbble"></span></a>
-					</div>
+            <!-- profile socials -->
+            <div class="social">
+              <a target="_blank" href="https://linkedin.com/in/lindsey-howard"><span class="fa fa-linkedin"></span></a>
+              <a target="_blank" href="https://twitter.com/dev_lindseyk"><span class="fa fa-twitter"></span></a>
+              <a target="_blank" href="https://github.com/codelikeagirl29"><span class="fa fa-github"></span></a>
+              <a target="_blank" href="https://dev.to/codelikeagirl29"><span class="fa-brands fa-dev"></span></a>
+              <a target="_blank" href="https://stackoverflow.com/users/14072521/lindsey"><span class="fa fa-stack-overflow"></span></a>
+              <a target="_blank" href="https://dribbble.com/codelikeagirl29"><span class="fa-brands fa-dribbble"></span></a>
+            </div>
 
-					<!-- profile buttons -->
-					<div class="lnks">
-						<a href="https://drive.google.com/file/d/1bHgWk-TyjNsoGOeLdqW-r5zEd-LSExM_/view?usp=share_link" class="lnk">
-							<span class="text">Download CV</span>
-							<span class="ion ion-android-attach"></span>
-						</a>
-						<a href="mailto:lindseykdev@gmail.com" class="lnk discover">
-							<span class="text">Hire Me</span>
-							<span class="ion ion-android-mail"></span>
-						</a>
-					</div>
-
-				</div>
-
-			</div>
-			<!--
+            <!-- profile buttons -->
+            <div class="lnks">
+              <a href="https://drive.google.com/file/d/1bHgWk-TyjNsoGOeLdqW-r5zEd-LSExM_/view?usp=share_link" class="lnk">
+                <span class="text">Download CV</span>
+                <span class="ion ion-android-attach"></span>
+              </a>
+              <a href="mailto:lindseykdev@gmail.com" class="lnk discover">
+                <span class="text">Hire Me</span>
+                <span class="ion ion-android-mail"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--
 				Card - Blog
 			-->
-			<div class="card-inner blog blog-post animated active" id="blog-card">
-				<div class="card-wrap">
-
-					<!--
+        <div class="card-inner blog blog-post animated active" id="blog-card">
+          <div class="card-wrap">
+            <!--
 						Blog Single
 					-->
-					<div class="content blog-single">
+            <div class="content blog-single">
+              <!-- title -->
+              <div class="title">Blog Post</div>
 
-						<!-- title -->
-						<div class="title">Blog Post</div>
+              <!-- content -->
+              <div class="row border-line-v">
+                <div class="col col-m-12 col-t-12 col-d-12">
+                  <div class="post-box">
+                    <!-- blog detail -->
+                    <h1 class="h-title">Top Productivity Hacks</h1>
+                    <div class="blog-detail">
+                      <span class="date">Dec 2, 2022</span>
+                      <span class="cat-links"><a href="#">Tips</a>, <a href="#">Career</a></span>
+                    </div>
 
-						<!-- content -->
-						<div class="row border-line-v">
-							<div class="col col-m-12 col-t-12 col-d-12">
-								<div class="post-box">
+                    <!-- blog image -->
+                    <div class="blog-image">
+                      <img src="..assets/images/blog/blog1.jpg" alt="" />
+                    </div>
 
-									<!-- blog detail -->
-									<h1 class="h-title">Top Productivity Hacks</h1>
-									<div class="blog-detail">
-										<span class="date">Dec 2, 2022</span>
-										<span class="cat-links"><a href="#">Tips</a>, <a href="#">Career</a></span>
-									
-									</div>
+                    <!-- blog content -->
+                    <div class="blog-content">
+                      <p class="text">
+                        Some people hold themselves accountable by logging work on productivity apps, while others turn to blogs and books inspirational productivity quotes. Regardless of how you motivate yourself to get things done in the
+                        workplace, now and then we all find ourselves searching for productivity tips to keep us moving forward. And if you don’t think this applies to you, consider this: research suggests that in an eight-hour workday, the
+                        average worker is only productive for two hours and 53 minutes. That leaves a lot of room for improvement.
+                      </p>
+                      <p class="text">
+                        Before you do anything else, take a few moments at the start of each day to organize and declutter your workspace. A clutter-free environment helps you think more clearly and produce better results, said Kristoph
+                        Matthews, head of engineering at NewtonX and founder of on-demand storage company Boxbee. By
+                        <a class="link-effect" href="https://www.businessnewsdaily.com/7456-workspace-design-productivity.html">cleaning up and organizing your space</a>, you can greatly increase your productivity and limit the time you
+                        spend searching for items.<br />
+                        <br />
+                        Color can have a major effect on your mood and productivity throughout the day, said Jenny Gauld, interior designer for office furniture and accessory retailer Turnstone. Blue can impart a calming feeling and help
+                        you focus, while red may be great for work requiring accuracy and attention to detail. Plants can also help people focus: A study by the
+                        <a class="link-effect" href="https://journals.ashs.org/horttech/view/journals/horttech/30/1/article-p55.xml">American Society for Horticultural Science</a> found that workers who were exposed to plants in their
+                        workspace reported feeling less stressed and more productive.<br />
+                        <br />
+                        In addition to adding some color and plants to your workspace, decorating your desk or cubicle with a few personal knickknacks can help you feel more relaxed, which can boost your productivity. Gauld suggested adding
+                        meaningful career memorabilia, such as diplomas, awards, and other decorative items that help you feel appreciated and will motivate you.<br />
+                        <br />
+                        Everyone has at least one task on the to-do list that keeps getting pushed back because the thought of doing it seems awful. That task is actually the one you should complete first, according to Matthews. Instead of
+                        waiting until the last minute to finish it, get it off your plate as soon as possible. Your other tasks will seem less daunting by comparison, and you’ll stop stressing about that one task all day, making you more
+                        productive overall.<br />
+                        <br />
+                        People vary in terms of when they are most productive. For example, are you a morning person or a night owl? It’s important to identify which hours of the day you feel most alert and attentive, and then dedicate
+                        those hours to your most important tasks. This is especially useful if you work remotely and can determine your schedule.<br />
+                        <br />
 
-									<!-- blog image -->
-									<div class="blog-image">
-										<img src="..assets/images/blog/blog1.jpg" alt="" />
-									</div>
+                        If you can’t create a schedule around your most productive work time, consider organizing your priorities in your current schedule based on which hours of your workday you feel most alert. Your productivity peaks are
+                        often in 90- to 120-minute intervals.
+                      </p>
 
-									<!-- blog content -->
-									<div class="blog-content">
-										<p class="text">
-											Some people hold themselves accountable by logging work on productivity apps, while others turn to blogs and books inspirational productivity quotes. Regardless of how you motivate yourself to get things
-											done in the workplace, now and then we all find ourselves searching for productivity tips to keep us moving forward. And if you don’t think this applies to you, consider this: research suggests that in an
-											eight-hour workday, the average worker is only productive for two hours and 53 minutes. That leaves a lot of room for improvement.
-										</p>
-										<p class="text">
-											Before you do anything else, take a few moments at the start of each day to organize and declutter your workspace. A clutter-free environment helps you think more clearly and produce better results, said
-											Kristoph Matthews, head of engineering at NewtonX and founder of on-demand storage company Boxbee. By
-											<a class="link-effect" href="https://www.businessnewsdaily.com/7456-workspace-design-productivity.html">cleaning up and organizing your space</a>, you can greatly increase your productivity and limit the
-											time you spend searching for items.<br />
-											<br />
-											Color can have a major effect on your mood and productivity throughout the day, said Jenny Gauld, interior designer for office furniture and accessory retailer Turnstone. Blue can impart a calming feeling
-											and help you focus, while red may be great for work requiring accuracy and attention to detail. Plants can also help people focus: A study by the
-											<a class="link-effect" href="https://journals.ashs.org/horttech/view/journals/horttech/30/1/article-p55.xml">American Society for Horticultural Science</a> found that workers who were exposed to plants in
-											their workspace reported feeling less stressed and more productive.<br />
-											<br />
-											In addition to adding some color and plants to your workspace, decorating your desk or cubicle with a few personal knickknacks can help you feel more relaxed, which can boost your productivity. Gauld
-											suggested adding meaningful career memorabilia, such as diplomas, awards, and other decorative items that help you feel appreciated and will motivate you.<br />
-											<br />
-											Everyone has at least one task on the to-do list that keeps getting pushed back because the thought of doing it seems awful. That task is actually the one you should complete first, according to Matthews.
-											Instead of waiting until the last minute to finish it, get it off your plate as soon as possible. Your other tasks will seem less daunting by comparison, and you’ll stop stressing about that one task all
-											day, making you more productive overall.<br />
-											<br />
-											People vary in terms of when they are most productive. For example, are you a morning person or a night owl? It’s important to identify which hours of the day you feel most alert and attentive, and then
-											dedicate those hours to your most important tasks. This is especially useful if you work remotely and can determine your schedule.<br />
-											<br />
-		
-											If you can’t create a schedule around your most productive work time, consider organizing your priorities in your current schedule based on which hours of your workday you feel most alert. Your
-											productivity peaks are often in 90- to 120-minute intervals.
-										</p>
-		
-										<div class="blog-quote">
-											<p>Understand how your <span>brain</span> works & when you are most <span>productive</span>. For me, I've gotten rid of lunch meetings to keep my <span>productive time</span> going as long as I can</p>
-											- Ryan Smith, CEO & Co-founder of <a href="https://www.qualtrics.com/">Qualtrics</a>
-										</div>
-										<p class="text">
-											Whether it’s taking a walk, going to your favorite coffee shop, reading a magazine or visiting with a colleague, taking short breaks that are unrelated to your work can make a huge difference in your
-											performance. Your productivity diminishes the longer you go without a break. Kobel explained that this is why it’s recommended that people don’t work more than eight to 10 hours per day. At a certain
-											point, she said, your body and mind simply cannot produce anymore.<br />
-											<br />
-											Exercise isn’t just good for your body; it can also positively impact your work performance. Physical exercise has been shown to affect mental health and focus, said Sam McIntire, founder of Deskbright,
-											an online learning platform dedicated to helping entrepreneurs and employees. A great way to feel sharper and more productive? Try going for a run in the morning or starting your day with a workout,
-											McIntire suggested. It doesn’t hurt to sneak in some exercise on your breaks either.<br />
-											<br />
-											It’s not always easy to keep track of everything you need to do, so start each morning by writing down your goals for the day. When your focus is broken or you find yourself procrastinating, McIntire
-											said, you can use the list to keep you on track, said McIntire. He suggested writing your list down on a Post-it or something that’s visible from your desk, then returning to it when you need a reminder
-											of what you should be working on.<br />
-											<br />
-											Doing more than one thing at a time may seem like the best way to get all of your tasks done, but it can hurt your productivity more than it helps. Multitasking simply doesn’t work, and when you do it,
-											you end up wasting time, Kobel said.<br />
-											<br />
-		
-											It can be hard to improve your productivity. These easy tips can help you be more productive without a <span>herculean effort</span>.
-										</p>
-										<ul class="list-style">
-											<li>
-												<span>1.</span>
-												<p class="info">Create a workspace that is clean, comfortable, decorative and free from distractions.</p>
-											</li>
-											<li>
-												<span>2.</span>
-												<p class="info">It can be helpful to take short breaks, move around, switch locations, put on some music, meditate and eat lunch with your co-workers.</p>
-											</li>
-											<li>
-												<span>3.</span>
-												<p class="info">Create daily goals and to-do lists to prioritize and delegate your tasks efficiently.</p>
-											</li>
-										</ul>
-										<p>
-											Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means
-											up civil do an offer wound of.
-										</p>
-									</div>
+                      <div class="blog-quote">
+                        <p>Understand how your <span>brain</span> works & when you are most <span>productive</span>. For me, I've gotten rid of lunch meetings to keep my <span>productive time</span> going as long as I can</p>
+                        - Ryan Smith, CEO & Co-founder of <a href="https://www.qualtrics.com/">Qualtrics</a>
+                      </div>
+                      <p class="text">
+                        Whether it’s taking a walk, going to your favorite coffee shop, reading a magazine or visiting with a colleague, taking short breaks that are unrelated to your work can make a huge difference in your performance.
+                        Your productivity diminishes the longer you go without a break. Kobel explained that this is why it’s recommended that people don’t work more than eight to 10 hours per day. At a certain point, she said, your body
+                        and mind simply cannot produce anymore.<br />
+                        <br />
+                        Exercise isn’t just good for your body; it can also positively impact your work performance. Physical exercise has been shown to affect mental health and focus, said Sam McIntire, founder of Deskbright, an online
+                        learning platform dedicated to helping entrepreneurs and employees. A great way to feel sharper and more productive? Try going for a run in the morning or starting your day with a workout, McIntire suggested. It
+                        doesn’t hurt to sneak in some exercise on your breaks either.<br />
+                        <br />
+                        It’s not always easy to keep track of everything you need to do, so start each morning by writing down your goals for the day. When your focus is broken or you find yourself procrastinating, McIntire said, you can
+                        use the list to keep you on track, said McIntire. He suggested writing your list down on a Post-it or something that’s visible from your desk, then returning to it when you need a reminder of what you should be
+                        working on.<br />
+                        <br />
+                        Doing more than one thing at a time may seem like the best way to get all of your tasks done, but it can hurt your productivity more than it helps. Multitasking simply doesn’t work, and when you do it, you end up
+                        wasting time, Kobel said.<br />
+                        <br />
 
-									<div class="post-text-bottom">
-										<div class="social-share">
-											<span>Share</span>
-											  <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
-											<!-- <a class="share-btn share-btn-facebook" title="Share on Facebook"><i class="ion ion-social-facebook"></i></a>
+                        It can be hard to improve your productivity. These easy tips can help you be more productive without a <span>herculean effort</span>.
+                      </p>
+                      <ul class="list-style">
+                        <li>
+                          <span>1.</span>
+                          <p class="info">Create a workspace that is clean, comfortable, decorative and free from distractions.</p>
+                        </li>
+                        <li>
+                          <span>2.</span>
+                          <p class="info">It can be helpful to take short breaks, move around, switch locations, put on some music, meditate and eat lunch with your co-workers.</p>
+                        </li>
+                        <li>
+                          <span>3.</span>
+                          <p class="info">Create daily goals and to-do lists to prioritize and delegate your tasks efficiently.</p>
+                        </li>
+                      </ul>
+                      <p>
+                        Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of.
+                      </p>
+                    </div>
+
+                    <div class="post-text-bottom">
+                      <div class="social-share">
+                        <span>Share</span>
+                        <!-- ShareThis BEGIN -->
+                        <div class="sharethis-inline-share-buttons"></div>
+                        <!-- ShareThis END -->
+                        <!-- <a class="share-btn share-btn-facebook" title="Share on Facebook"><i class="ion ion-social-facebook"></i></a>
 											<a class="share-btn share-btn-twitter" title="Share on Twitter"><i class="ion ion-social-twitter"></i></a>
 											<a class="share-btn share-btn-linkedin" title="Share on Linkedin"><i class="ion ion-social-linkedin"></i></a>
 											<a class="share-btn share-btn-reddit" title="Share on Reddit"><i class="ion ion-social-reddit"></i></a>
 											<a class="share-btn share-btn-pinterest" title="Share on Pinterest"><i class="ion ion-social-pinterest"></i></a> -->
-										</div>
-										<span class="tags-links">Tags: <a href="#">code</a><a href="#">html</a><a href="#">productivity</a><a href="#">tips</a></span>
-									</div>
+                      </div>
+                      <span class="tags-links">Tags: <a href="#">code</a><a href="#">html</a><a href="#">productivity</a><a href="#">tips</a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-								</div>
-							</div>
-						</div>
+              <nav class="navigation post-navigation">
+                <div class="nav-links">
+                  <div class="nav-previous">
+                    <a href="blog1.html"><span class="post-nav-next post-nav-text">Prev</span></a>
+                  </div>
+                  <div class="nav-next">
+                    <a href="blog3.html"><span class="post-nav-prev post-nav-text">Next</span></a>
+                  </div>
+                </div>
+              </nav>
 
-						<nav class="navigation post-navigation">
-							<div class="nav-links">
-								<div class="nav-previous"><a href="blog1.html"><span class="post-nav-next post-nav-text">Prev</span></a></div>
-								<div class="nav-next"><a href="blog3.html"><span class="post-nav-prev post-nav-text">Next</span></a></div>
-							</div>
-						</nav>
-
-						<!-- <div class="post-comments">
+              <!-- <div class="post-comments">
 							<div class="title">
 								<div class="title_inner">3 Comments</div>
 							</div>
@@ -429,7 +412,7 @@
 							</div>
 						</div> -->
 
-						<!-- <div class="post-comments">
+              <!-- <div class="post-comments">
 							<div class="title">Leave a Comment</div>
 							<div class="row border-line-v">
 								<div class="col col-m-12 col-t-12 col-d-12">
@@ -461,133 +444,129 @@
 								</div>
 							</div>
 						</div> -->
+            </div>
+          </div>
+        </div>
 
-					</div>
-
-				</div>
-			</div>
-
-			<!--
+        <!--
 				Card - Contacts
 			-->
-			<div class="card-inner contacts" id="contacts-card">
-				<div class="card-wrap">
-
-					<!--
+        <div class="card-inner contacts" id="contacts-card">
+          <div class="card-wrap">
+            <!--
 						Conacts Info
 					-->
-					<div class="content contacts">
+            <div class="content contacts">
+              <!-- title -->
+              <div class="title">Get in Touch</div>
 
-						<!-- title -->
-						<div class="title">Get in Touch</div>
+              <!-- content -->
+              <div class="row">
+                <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+                  <div class="map" id="map">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206989.15012519967!2d-78.7851394361!3d35.84396498098574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5a2f9f51e0f7%3A0x6790b6528a11f0ad!2sRaleigh%2C%20NC!5e0!3m2!1sen!2sus!4v1655735327235!5m2!1sen!2sus"
+                      height="350"
+                      style="border: 0;"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="info-list">
+                  <ul>
+                    <li><strong>📍 Address . . . .</strong> Raleigh, NC</li>
+                    <li><strong>✉ Email . . . .</strong> lindseykdev@gmail.com</li>
+                    <li><strong>☎ Phone . . . .</strong> 919.492.7125</li>
+                    <li><strong>👨‍💻 Freelance . . . .</strong> Actively Seeking</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
 
-						<!-- content -->
-						<div class="row">
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-								<div class="map" id="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206989.15012519967!2d-78.7851394361!3d35.84396498098574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5a2f9f51e0f7%3A0x6790b6528a11f0ad!2sRaleigh%2C%20NC!5e0!3m2!1sen!2sus!4v1655735327235!5m2!1sen!2sus" height="350" style="border: 0;" allowfullscreen></iframe>
-							</div>
-								</div>
-								<div class="info-list">
-									<ul>
-										<li><strong>📍 Address . . . .</strong> Raleigh, NC</li>
-										<li><strong>✉ Email . . . .</strong> lindseykdev@gmail.com</li>
-										<li><strong>☎ Phone . . . .</strong> 919.492.7125</li>
-										<li><strong>👨‍💻 Freelance . . . .</strong> Actively Seeking</li>
-									</ul>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</div>
-
-					</div>
-
-					<!--
+          <!--
 						Contact Form
 					-->
-					<div class="content contacts">
+          <div class="content contacts">
+            <!-- title -->
+            <div class="title">Contact Form</div>
 
-						<!-- title -->
-						<div class="title">Contact Form</div>
+            <!-- content -->
+            <div class="row">
+              <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+                <div class="contact_form">
+                  <form id="cform" method="post">
+                    <div class="row">
+                      <div class="col col-d-6 col-t-6 col-m-12">
+                        <div class="group-val">
+                          <input type="text" name="name" placeholder="Full Name" required />
+                        </div>
+                      </div>
+                      <div class="col col-d-6 col-t-6 col-m-12">
+                        <div class="group-val">
+                          <input type="text" name="email" placeholder="Email Address" required />
+                        </div>
+                      </div>
+                      <div class="col col-d-12 col-t-12 col-m-12">
+                        <div class="group-val">
+                          <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="align-left">
+                      <a href="#" class="button" onclick="$('#cform').submit(); return false;">
+                        <span class="text">Send Message</span>
+                        <span class="arrow"></span>
+                      </a>
+                    </div>
+                  </form>
+                  <div class="alert-success">
+                    <p>Thanks, your message was sent successfully.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-						<!-- content -->
-						<div class="row">
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-								<div class="contact_form">
-									<form id="cform" method="post">
-										<div class="row">
-											<div class="col col-d-6 col-t-6 col-m-12">
-												<div class="group-val">
-													<input type="text" name="name" placeholder="Full Name" required />
-												</div>
-											</div>
-											<div class="col col-d-6 col-t-6 col-m-12">
-												<div class="group-val">
-													<input type="text" name="email" placeholder="Email Address" required />
-												</div>
-											</div>
-											<div class="col col-d-12 col-t-12 col-m-12">
-												<div class="group-val">
-													<textarea name="message" placeholder="Your Message"></textarea>
-												</div>
-											</div>
-										</div>
-										<div class="align-left">
-											<a href="#" class="button" onclick="$('#cform').submit(); return false;">
-												<span class="text">Send Message</span>
-												<span class="arrow"></span>
-											</a>
-										</div>
-									</form>
-									<div class="alert-success">
-										<p>Thanks, your message was sent successfully.</p>
-									</div>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-
-		<div class="s_overlay"></div>
-		<div class="content-sidebar">
-			<div class="sidebar-wrap search-form">
-				<aside id="secondary" class="widget-area">
-					<section id="search-2" class="widget widget_search">
-						<label>
-							<span class="screen-reader-text">Search for:</span>
-							<input type="search" class="search-field" placeholder="Search …" value="" name="s">
-						</label>
-						<input type="submit" class="search-submit" value="Search">
-					</section>
-					<section class="widget widget_recent_entries">
-						<h2 class="widget-title">
-							<span class="widget-title-span"><span class="first-word">Recent</span> Posts</span>
-						</h2>
-						<ul>
-							<li>
-								<a href="blog2.html">Productivity tips for the ambitious</a>
-							</li>
-							<li>
-								<a href="blog4.html">Styling with CSS</a>
-							</li>
-							<li>
-								<a href="blog3.html">Gatsby,js - what you should know</a>
-							</li>
-							<li>
-								<a href="blog1.html">Frontend Developers Handbook</a>
-							</li>
-							<li>
-								<a href="#">Designing the perfect</a>
-							</li>
-						</ul>
-					</section>
-					<!-- <section class="widget widget_recent_comments">
+    <div class="s_overlay"></div>
+    <div class="content-sidebar">
+      <div class="sidebar-wrap search-form">
+        <aside id="secondary" class="widget-area">
+          <section id="search-2" class="widget widget_search">
+            <label>
+              <span class="screen-reader-text">Search for:</span>
+              <input type="search" class="search-field" placeholder="Search …" value="" name="s" />
+            </label>
+            <input type="submit" class="search-submit" value="Search" />
+          </section>
+          <section class="widget widget_recent_entries">
+            <h2 class="widget-title">
+              <span class="widget-title-span"><span class="first-word">Recent</span> Posts</span>
+            </h2>
+            <ul>
+              <li>
+                <a href="blog2.html">Productivity tips for the ambitious</a>
+              </li>
+              <li>
+                <a href="blog4.html">Styling with CSS</a>
+              </li>
+              <li>
+                <a href="blog3.html">Gatsby,js - what you should know</a>
+              </li>
+              <li>
+                <a href="blog1.html">Frontend Developers Handbook</a>
+              </li>
+              <li>
+                <a href="#">Designing the perfect</a>
+              </li>
+            </ul>
+          </section>
+          <!-- <section class="widget widget_recent_comments">
 						<h2 class="widget-title">
 							<span class="widget-title-span"><span class="first-word">Recent</span> Comments</span>
 						</h2>
@@ -609,71 +588,68 @@
 							</li>
 						</ul>
 					</section> -->
-					<section class="widget widget_archive">
-						<h2 class="widget-title">
-							<span class="widget-title-span">
-								<span class="first-letter">Archives</span>
-							</span>
-						</h2>
-						<ul>
-							<li>
-								<a href="#">November 2021</a>
-							</li>
-						</ul>
-					</section>
-					<section class="widget widget_categories">
-						<h2 class="widget-title">
-							<span class="widget-title-span"><span class="first-letter">Categories</span></span>
-						</h2>
-						<ul>
-							<li class="cat-item cat-item-2">
-								<a href="#">Design</a>
-							</li>
-							<li class="cat-item cat-item-3">
-								<a href="#">Guides</a>
-							</li>
-						</ul>
-					</section>
-					<section class="widget widget_meta">
-						<h2 class="widget-title">
-							<span class="widget-title-span"><span class="first-letter">Fave Dev Blogs</span></span>
-						</h2>
-						<ul>
-							<li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
-							<li><a href="https://davidwalsh.name/">David Walsh</a></li>
-							<li><a href="https://blog.logrocket.com/">LogRocket</a></li>
-							<li><a href="https://css-irl.info/">CSS { In Real Life }</a></li>
-						</ul>
-					</section>
-				</aside>
-			</div>
-			<span class="close"></span>
-		</div>
+          <section class="widget widget_archive">
+            <h2 class="widget-title">
+              <span class="widget-title-span">
+                <span class="first-letter">Archives</span>
+              </span>
+            </h2>
+            <ul>
+              <li>
+                <a href="#">November 2021</a>
+              </li>
+            </ul>
+          </section>
+          <section class="widget widget_categories">
+            <h2 class="widget-title">
+              <span class="widget-title-span"><span class="first-letter">Categories</span></span>
+            </h2>
+            <ul>
+              <li class="cat-item cat-item-2">
+                <a href="#">Design</a>
+              </li>
+              <li class="cat-item cat-item-3">
+                <a href="#">Guides</a>
+              </li>
+            </ul>
+          </section>
+          <section class="widget widget_meta">
+            <h2 class="widget-title">
+              <span class="widget-title-span"><span class="first-letter">Fave Dev Blogs</span></span>
+            </h2>
+            <ul>
+              <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+              <li><a href="https://davidwalsh.name/">David Walsh</a></li>
+              <li><a href="https://blog.logrocket.com/">LogRocket</a></li>
+              <li><a href="https://css-irl.info/">CSS { In Real Life }</a></li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+      <span class="close"></span>
+    </div>
 
-	</div>
-
-	<!--
+    <!--
 		jQuery Scripts
 	-->
-	<script src="..assets/js/jquery.min.js"></script>
-	<script src="..assets/js/jquery.validate.js"></script>
-	<script src="..assets/js/jquery.magnific-popup.js"></script>
-	<script src="..assets/js/imagesloaded.pkgd.js"></script>
-	<script src="..assets/js/isotope.pkgd.js"></script>
-	<script src="..assets/js/jquery.slimscroll.js"></script>
-	<script src="..assets/js/owl.carousel.js"></script>
-	<script src="..assets/js/typed.js"></script>
-	<script src="https://use.fontawesome.com/8da76d029b.js"></script>
+    <script src="..assets/js/jquery.min.js"></script>
+    <script src="..assets/js/jquery.validate.js"></script>
+    <script src="..assets/js/jquery.magnific-popup.js"></script>
+    <script src="..assets/js/imagesloaded.pkgd.js"></script>
+    <script src="..assets/js/isotope.pkgd.js"></script>
+    <script src="..assets/js/jquery.slimscroll.js"></script>
+    <script src="..assets/js/owl.carousel.js"></script>
+    <script src="..assets/js/typed.js"></script>
+    <script src="https://use.fontawesome.com/8da76d029b.js"></script>
 
-	<!--
+    <!--
 		Google map api
 	-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script>
 
-	<!--
+    <!--
 		Main Scripts
 	-->
-	<script src="..assets/js/scripts.js"></script>
-
-</body>
+    <script src="..assets/js/scripts.js"></script>
+  </body>
 </html>

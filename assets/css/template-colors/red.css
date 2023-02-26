@@ -1,154 +1,146 @@
-/**
-*	 
-*	Version: 2.6
-*	 
-*	 
-*	 
-**/
-
 /* TABLE OF CONTENTS
 	1. Template Red
 */
 
 /* 1. Template Red */
 .background {
-	background-color: rgba(232, 103, 107, 0.4);
+  background-color: rgba(232, 103, 107, 0.4);
 }
 
 .preloader .spinner .double-bounce1,
 .preloader .spinner .double-bounce2 {
-	background: rgb(237, 41, 57);
+  background: rgb(237, 41, 57);
 }
 
 .lnk:hover,
 .button:hover {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .lnk:hover .ion,
 .button:hover .ion {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .lnk:hover .arrow:before,
 .button:hover .arrow:before,
 .lnk:hover .arrow:after,
 .button:hover .arrow:after {
-	background: rgb(237, 41, 57);
+  background: rgb(237, 41, 57);
 }
 
 input:focus,
 textarea:focus,
 button:focus {
-	border-bottom: 1px solid rgb(237, 41, 57);
+  border-bottom: 1px solid rgb(237, 41, 57);
 }
 
 button:hover {
-	border-bottom: 1px solid rgb(237, 41, 57);
+  border-bottom: 1px solid rgb(237, 41, 57);
 }
 
 .header .top-menu ul li:hover a,
 .header .top-menu ul li.active a {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .header .top-menu ul li:hover a .icon,
 .header .top-menu ul li.active a .icon,
 .header .top-menu ul li:hover a .link,
 .header .top-menu ul li.active a .link {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .card-started:after {
-	background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
 }
 
 .card-started .profile .image:before {
-	background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
 }
 
 .card-started .profile .subtitle {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .card-started .profile .social a:hover .ion,
 .card-started .profile .social a:hover .fab,
 .card-started .profile .social a:hover .fas {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .content .title:before {
-	background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
 }
 
 .service-items .service-item .icon {
-	color: rgb(237, 41, 57);
-	background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  color: rgb(237, 41, 57);
+  background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
 }
 
 .pricing-items .pricing-item .icon {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .pricing-items .pricing-item .feature-list ul li strong {
-	background: rgba(232, 103, 107, 0.4);
+  background: rgba(232, 103, 107, 0.4);
 }
 
 .fuct-items .fuct-item .icon {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .resume-title .icon,
 .skill-title .icon {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .resume-items .resume-item.active .date {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .resume-items .resume-item.active .date:before {
-	background: rgb(237, 41, 57);
+  background: rgb(237, 41, 57);
 }
 
 .skills-list ul li .progress .percentage {
-	background: rgb(237, 41, 57);
+  background: rgb(237, 41, 57);
 }
 
 .content.works .filter-menu .f_btn.active {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .box-item .image .info:before {
-	background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-	background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
+  background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
 }
 
 .post-box .blog-content blockquote {
-	border-left: 2px solid rgb(237, 41, 57);
+  border-left: 2px solid rgb(237, 41, 57);
 }
 
 .post-box .blog-content ul.list-style li:before {
-	background: rgb(237, 41, 57);
+  background: rgb(237, 41, 57);
 }
 
 .post-box .post-comments li .comment-info .name h6 {
-	color: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .background.gradient {
-	background: #50a3a2;
-	background: -webkit-linear-gradient(top left, #c33764 0%, rgb(237, 41, 57) 100%);
-	background: linear-gradient(to bottom right, #c33764 0%, rgb(237, 41, 57) 100%);
+  background: #50a3a2;
+  background: -webkit-linear-gradient(top left, #c33764 0%, rgb(237, 41, 57) 100%);
+  background: linear-gradient(to bottom right, #c33764 0%, rgb(237, 41, 57) 100%);
 }
 
 /*
@@ -160,7 +152,7 @@ button:hover {
 }
 
 .skills-list.dotted ul li .progress .da span {
-  background: rgb(237, 41, 57)!important;
+  background: rgb(237, 41, 57) !important;
 }
 
 .skills-list.circles .progress .bar,
@@ -237,7 +229,7 @@ textarea:focus {
 }
 
 .new-skin .service-items .service-item .icon {
-  background: rgb(237, 41, 57)!important;
+  background: rgb(237, 41, 57) !important;
 }
 
 .resume-items .resume-item.active .date {
