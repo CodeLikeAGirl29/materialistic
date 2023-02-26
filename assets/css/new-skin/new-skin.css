@@ -2040,7 +2040,7 @@ h2.screen-reader-text {
 	display: block;
 	width: 11px;
 	height: 12px;
-	background: url(../../images/pag.png) no-repeat center center;
+	background: url(../../assets/images/pag.png) no-repeat center center;
 	background-size: contain;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
@@ -2139,7 +2139,7 @@ a.next.page-numbers:hover {
 	display: block;
 	width: 11px;
 	height: 20px;
-	background: url(../../images/pag.png) no-repeat center center;
+	background: url(../../assets/images/pag.png) no-repeat center center;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 	-webkit-transition: all 0.3s ease 0s;
