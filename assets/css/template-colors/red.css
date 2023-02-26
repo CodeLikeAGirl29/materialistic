@@ -241,7 +241,7 @@ textarea:focus {
 }
 
 .new-skin .info-list ul li strong {
-  background: rgb(237, 41, 57);
+  color: rgb(237, 41, 57);
 }
 
 .revs-carousel .owl-dots .owl-dot {
