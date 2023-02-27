@@ -259,7 +259,7 @@
                 <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
                   <div class="service-item">
                     <div class="icon">
-                      <span class="fa fa-code fa-sm"></span>
+                      <i class="fa fa-code fa-md fa-align-center"></i>
                     </div>
                     <div class="name">
                       <span> Web Development </span>
@@ -275,7 +275,7 @@
                 <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
                   <div class="service-item">
                     <div class="icon">
-                      <span class="fa fa-solid fa-pen-nib fa-sm"></span>
+                      <i class="fa fa-solid fa-pen-nib fa-md fa-align-center"></i>
                     </div>
                     <div class="name">
                       <span> Content Writing </span>
@@ -291,7 +291,7 @@
                 <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
                   <div class="service-item">
                     <div class="icon">
-                      <span class="fa fa-solid fa-umbrella fa-sm"></span>
+                      <i class="fa fa-solid fa-umbrella fa-md fa-align-center"></i>
                     </div>
                     <div class="name">
                       <span> Strategy/Planning </span>
@@ -307,7 +307,7 @@
                 <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
                   <div class="service-item">
                     <div class="icon">
-                      <span class="fa fa-solid fa-copyright fa-sm"></span>
+                      <i class="fa fa-solid fa-copyright fa-md fa-align-center"></i>
                     </div>
                     <div class="name">
                       <span> Branding/Identity </span>
@@ -336,7 +336,7 @@
                 <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
                   <div class="fuct-item">
                     <div class="icon"><span class="fa fa-book"></span></div>
-                    <div class="name">New York Book Awards</div>
+                    <div class="name">Graph Developer by Apollo GraphQL</div>
                   </div>
                 </div>
 
@@ -344,7 +344,7 @@
                 <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
                   <div class="fuct-item">
                     <div class="icon"><span class="fa fa-trophy"></span></div>
-                    <div class="name">German Book Awards</div>
+                    <div class="name">Node by HackerRank</div>
                   </div>
                 </div>
 
@@ -352,17 +352,17 @@
                 <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
                   <div class="fuct-item">
                     <div class="icon"><span class="fa fa-coffee"></span></div>
-                    <div class="name">Costa Book Award</div>
+                    <div class="name">Enterprise Design Thinking by IBM</div>
                   </div>
                 </div>
 
                 <!-- fuct item -->
-                <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                <!-- <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
                   <div class="fuct-item">
                     <div class="icon"><span class="fa fa-pencil"></span></div>
                     <div class="name">Writers Guild Awards</div>
                   </div>
-                </div>
+                </div> -->
 
                 <div class="clear"></div>
               </div>
@@ -831,7 +831,7 @@
                       </a>
                     </div>
                     <div class="desc">
-                      <a href="https://vimeo.com/97102654" class="name has-popup-image">City Tours</a>
+                      <a href="#" class="name has-popup-image">City Tours</a>
                       <div class="category">Frontend</div>
                     </div>
                   </div>
@@ -841,7 +841,7 @@
                 <div class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
                   <div class="box-item">
                     <div class="image">
-                      <a href="assets/images/works/3.png" class="has-popup-music">
+                      <a href="assets/images/works/3.png" class="has-popup-media">
                         <img src="assets/images/works/3.png" alt="" />
                         <span class="info">
                           <span class="ion ion-image"></span>
@@ -881,11 +881,14 @@
                             <div class="blog-detail">Frontend</div>
                             <div class="blog-content">
                               <p>
-                                So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
-                              </p>
-                              <p>
-                                Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining determine few her two cordially
-                                admitting old.
+                                To build this feature, we'll use a "schema-first" design. That means we'll implement the feature based on exactly which data our client application needs. Schema-first design typically involves three major steps:<br><br>
+
+                                <strong>1. Defining the schema:</strong> We identify which data our feature requires, and then we structure our schema to provide that data as intuitively as possible.
+                                <strong>2. Backend implementation:</strong> We build out our GraphQL API using Apollo Server and fetch the required data from whichever data sources contain it. In this first course, we will be using mocked data. In a following course, we'll connect our app to a live REST data source.
+                                <strong>3. Frontend implementation:<strong> Our client consumes data from our GraphQL API to render its views.<br><br>
+                                </p>
+                                  <p>
+                                One of the benefits of schema-first design is that it reduces total development time by allowing frontend and backend teams to work in parallel. The frontend team can start working with mocked data as soon as the schema is defined, while the backend team develops the API based on that same schema. This isn't the only way to design a GraphQL API, but we believe it's an efficient one, so we'll use it throughout this course.
                               </p>
                               <blockquote>
                                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque suscipit.
@@ -895,13 +898,23 @@
                                 everything men him admiration unpleasing sex.
                               </p>
                               <ul class="list-style">
-                                <li>Greatest properly off ham exercise all.</li>
-                                <li>Unsatiable invitation its possession nor off.</li>
-                                <li>All difficulty estimating unreserved increasing the solicitude.</li>
+                                <li>The schema-first design approach and its benefits
+                                </li>
+                                <li>Schema definition language (SDL) fundamentals
+                                </li>
+                                <li>Build a GraphQL API using Apollo Server 3
+                                </li>
+                                <li>
+                                  Use mock data to get up and running quickly
+                                </li>
+                                <li>
+                                  Build and run queries with Apollo Explorer
+                                </li>
+                                <li>
+                                  Send queries and display data using Apollo Client 3
+                                </li>
                               </ul>
-                              <p>
-                                Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of.
-                              </p>
+                             
                             </div>
                             <a href="https://github.com/CodeLikeAGirl29/odyssey-lift-off-client" class="button">
                               <span class="text">View Project</span>
@@ -938,13 +951,13 @@
                 </div>
 
                 <!-- work item music -->
-                <div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
+                <div class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
                   <div class="box-item">
                     <div class="image">
-                      <a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true" class="has-popup-music">
+                      <a href="" class="has-popup-image">
                         <img src="assets/images/work6.jpg" alt="" />
                         <span class="info">
-                          <span class="ion ion-music-note"></span>
+                          <span class="ion ion-image"></span>
                         </span>
                       </a>
                     </div>

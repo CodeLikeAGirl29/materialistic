@@ -79,12 +79,12 @@ button:hover {
   background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
 }
 
-.service-items .service-item .icon {
+/* .service-items .service-item .icon {
   color: rgb(237, 41, 57);
   background: -moz-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
   background: -webkit-linear-gradient(-45deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
   background: linear-gradient(135deg, rgba(232, 103, 107, 0.4) 0%, rgba(232, 103, 107, 0.01) 100%);
-}
+} */
 
 .pricing-items .pricing-item .icon {
   color: rgb(237, 41, 57);
@@ -228,9 +228,9 @@ textarea:focus {
   color: rgb(237, 41, 57);
 }
 
-.new-skin .service-items .service-item .icon {
+/* .new-skin .service-items .service-item .icon {
   background: rgb(237, 41, 57) !important;
-}
+} */
 
 .resume-items .resume-item.active .date {
   border-color: rgb(237, 41, 57);

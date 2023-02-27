@@ -787,11 +787,11 @@ p#tagline {
   width: 60px;
   height: 60px;
   text-align: center;
-  font-size: 32px;
-  color: rgb(237, 41, 57);
-  background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
+  font-size: 2.4rem;
+  /* color: rgb(237, 41, 57);
+   background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
   background: -webkit-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
-  background: linear-gradient(135deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
+  background: linear-gradient(135deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%); */
   border-radius: 60px;
   -moz-border-radius: 60px;
   -webkit-border-radius: 60px;
@@ -799,10 +799,12 @@ p#tagline {
 }
 
 .service-items .service-item .icon .ion,
-.service-items .service-item .icon .fab,
-.service-items .service-item .icon .fas {
+.service-items .service-item .icon .fa,
+.service-items .service-item .icon .fa-md {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
   display: block;
-  line-height: 60px;
 }
 
 .service-items .service-item .name {
