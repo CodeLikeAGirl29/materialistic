@@ -15,13 +15,13 @@
 */
 
 .post-box .blog-detail {
-  margin: 0 0 25px 0;
+  margin: 0 0 25px;
   font-size: 13px;
   color: #999999;
 }
 
 .post-box .blog-image {
-  margin: 0 0 25px 0;
+  margin: 0 0 25px;
   font-size: 0;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .post-box .blog-content {
-  margin: 0 0 40px 0;
+  margin: 0 0 40px;
 }
 
 .post-box .blog-content blockquote {
@@ -60,7 +60,7 @@
 }
 
 .post-box .post-comments {
-  margin: 0 0 40px 0;
+  margin: 0 0 40px;
 }
 
 .post-box .post-comments li {
@@ -105,11 +105,11 @@
 
 .post-box .post-comments li .comment-info {
   margin: 0 0 0 66px;
-  padding: 5px 0 0 0;
+  padding: 5px 0 0;
 }
 
 .post-box .post-comments li .comment-info .name {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
   position: relative;
   font-size: 13px;
   color: #171717;
@@ -238,7 +238,7 @@
 @media only screen and (max-width: 768px) {
   .blog-quote p {
     font-size: 20px;
-    margin: -5px 0 0 0;
+    margin: -5px 0 0;
   }
 }
 
@@ -597,7 +597,7 @@ p.text {
   letter-spacing: -0.04em;
   color: #e0e0e0;
   line-height: 1.25;
-  margin: -8px 0 -5px 0;
+  margin: -8px 0 -5px;
 }
 
 @media only screen and (max-width: 995px) {
