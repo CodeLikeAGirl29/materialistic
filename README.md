@@ -6,7 +6,7 @@ Expanding on the "cards" implemented by Google, Material Design uses more grid-b
 >
 > [![Netlify Status](https://api.netlify.com/api/v1/badges/6e7d3bb8-86f4-4e1b-8f1f-614db3a29608/deploy-status)](https://app.netlify.com/sites/materialistic/deploys)
 
-![screenshot]([https://res.cloudinary.com/codelikeagirl29/image/upload/v1700867077/projects/vCard-Resume-CV-Template_hgorac.png)
+![screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1704015761/projects/vCard-Resume-CV_zrn9zk.png)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/codelikeagirl29/materialistic/badge)](https://www.codefactor.io/repository/github/codelikeagirl29/materialistic)
 
